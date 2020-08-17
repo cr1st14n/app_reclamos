@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:junior_app/pages/perfil_page.dart';
+import 'package:app_reclamos/pages/perfil_page.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:junior_app/pages/regisInspeccion_page.dart';
+import 'package:app_reclamos/pages/regisInspeccion_page.dart';
 
 
 
