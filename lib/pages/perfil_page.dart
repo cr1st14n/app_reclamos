@@ -34,7 +34,7 @@ class _perfilPageState extends State<perfilPage> {
                   height: 10.0,
                 ),
                 Text(
-                  'Developer',
+                  'Nombre Inspector',
                   style: TextStyle(
                     fontSize: 22.0,
                     color: Colors.white,
@@ -60,7 +60,7 @@ class _perfilPageState extends State<perfilPage> {
                               Text(
                                 'Reclamos',
                                 style: TextStyle(
-                                    color: Colors.redAccent,
+                                    color: Colors.black,
                                     fontSize: 22.0,
                                     fontWeight: FontWeight.bold),
                               ),
@@ -70,7 +70,7 @@ class _perfilPageState extends State<perfilPage> {
                               Text(
                                 '5200',
                                 style: TextStyle(
-                                    fontSize: 22.0, color: Colors.pinkAccent),
+                                    fontSize: 22.0, color: Colors.black),
                               )
                             ],
                           ),
@@ -81,7 +81,7 @@ class _perfilPageState extends State<perfilPage> {
                               Text(
                                 'Atendidos',
                                 style: TextStyle(
-                                    color: Colors.redAccent,
+                                    color: Colors.black,
                                     fontSize: 22.0,
                                     fontWeight: FontWeight.bold),
                               ),
@@ -91,7 +91,7 @@ class _perfilPageState extends State<perfilPage> {
                               Text(
                                 '28.5K',
                                 style: TextStyle(
-                                  color: Colors.pinkAccent,
+                                  color: Colors.black,
                                   fontSize: 20.0,
                                 ),
                               )
@@ -105,7 +105,7 @@ class _perfilPageState extends State<perfilPage> {
                                 'No Atendidos',
                                 style: TextStyle(
                                     fontSize: 19.0,
-                                    color: Colors.redAccent,
+                                    color: Colors.black,
                                     fontWeight: FontWeight.bold),
                               ),
                               SizedBox(
@@ -115,7 +115,7 @@ class _perfilPageState extends State<perfilPage> {
                                 '1300',
                                 style: TextStyle(
                                   fontSize: 20.0,
-                                  color: Colors.pinkAccent,
+                                  color: Colors.black,
                                 ),
                               )
                             ],
@@ -177,7 +177,7 @@ class _perfilPageState extends State<perfilPage> {
                 gradient: LinearGradient(
                     begin: Alignment.centerRight,
                     end: Alignment.centerLeft,
-                    colors: [Colors.redAccent, Colors.pinkAccent]),
+                    colors: [Colors.blue, Colors.blueAccent]),
                 borderRadius: BorderRadius.circular(30.0),
               ),
               child: Container(
